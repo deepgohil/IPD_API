@@ -1,0 +1,4 @@
+create venv 
+python3 -m venv env-pymongo-fastapi-crud
+python -m venv env-pymongo-fastapi-crud(win)
+pip freeze > requirements.txt
