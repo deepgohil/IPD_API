@@ -36,7 +36,7 @@ mycol = mydb["details"]
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to the PyMongo tutorial!"}
+    return {"message": "Welcome"}
 
 
 @app.post("/createaccount",status_code=200)
